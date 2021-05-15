@@ -7,8 +7,12 @@
   },
   "bundleDependencies": false,
   "contributors": [
-    {"name": "SB-Team"},
-    {"name": "Mosvhy"}
+    {
+      "name": "SB-Team"
+    },
+    {
+      "name": "Mosvhy"
+    }
   ],
   "dependencies": {
     "bluebird": "~2.9.24",
@@ -75,5 +79,5 @@
     "test": "make all",
     "test-docker": "sudo docker-compose run sequelize /bin/sh -c \"make all\""
   },
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
